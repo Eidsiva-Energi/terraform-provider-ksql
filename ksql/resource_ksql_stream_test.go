@@ -32,7 +32,7 @@ func setup() error {
 	return err
 }
 
-func TestAccOrderResource(t *testing.T) {
+func TestAccStreamResource(t *testing.T) {
 	err := setup()
 	if err != nil {
 		log.Printf("[ERROR] Unable to setup topic for test: %s", err)
